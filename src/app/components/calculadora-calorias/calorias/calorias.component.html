@@ -1,0 +1,102 @@
+<div class="col-md-12 ">
+  <h2 class="text-center">Proporciona los siguientes datos para calcular tus calorías diarias recomendadas</h2>
+</div>
+
+<form class="col-md-12 mt-5" id="formulario">
+  <div class="row">
+    <div class="offset-md-1 col-md-3 col-sm-3  pt-2 ">
+      <label class="col-form-label">
+        <b>1. Eres:</b>
+      </label>
+    </div>
+    <div class="col-md-4 col-sm-3" style="margin-left:-45px;">
+      <div class="row">
+        <img class="img mujer col-md-5" src="../assets/images/M.png" alt="">
+        <input class="col-md-1 mt-4 col-sm-2" type="radio" name="gridRadios" value="option1" checked>
+        <label class="form-check-label col-md-4 col-sm-2 mt-3 text-center" for="gridRadios1">Mujer</label>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-3">
+      <div class="row">
+        <img class="img mujer col-md-5 offset-sm-1" src="../assets/images/H.png" alt="">
+        <input class="col-md-1 col-sm-2 mt-4" type="radio" name="gridRadios" value="option1" checked>
+        <label class="form-check-label col-md-4 col-sm-2 mt-3" for="gridRadios1">Hombre</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row pt-4">
+    <label for="inputPassword3" class="offset-md-1 col-md-2 col-sm-3 pt-1">
+      <b>2. Peso:</b>
+    </label>
+    <div class="col-md-7 col-sm-7 ">
+      <input type="text" class="form-control text-center" name="peso">
+    </div>
+    <label class="col-md-1 pt-1" style="margin-left: -14px;">
+      <b>kg</b>
+    </label>
+  </div>
+  <div class="form-group row pt-4">
+    <label for="inputPassword3" class="offset-md-1 col-md-2 pt-1">
+      <b>3. Edad:</b>
+    </label>
+    <div class="col-md-7">
+      <input type="text" class="form-control text-center" name="edad">
+    </div>
+    <label class="col-md-1 pt-1" style="margin-left: -14px;">
+      <b>años</b>
+    </label>
+  </div>
+  <div class="form-group row pt-4">
+    <label for="inputPassword3" class="offset-md-1 col-md-3 pt-1">
+      <b>4. Altura:</b>
+    </label>
+    <div class="col-md-7">
+      <input type="text" class="form-control text-center " style="margin-left: -67px;" name="altura">
+    </div>
+    <label class="col-md-1 pt-1" style="margin-left:-80px">
+      <b>cm</b>
+    </label>
+  </div>
+  <div class="form-group row pt-4 text-center">
+    <div class="col-md-12">
+      <label for="inputPassword3" class="pt-1">
+        <b>5. ¿Qué tan activo eres a diario?</b>
+      </label>
+    </div>
+  </div>
+  <div class=" col-md-12 ">
+    <div class="row">
+      <div class="col-md-6">
+        <img class="col-md-5  rounded-circle imagen offset-md-1" src="../assets/images/sentado2.png" alt="">
+        <input class="col-md-1" type="radio" name="gridRadios" value="option1" checked>
+        <label class="col-md-5 form-check-label text-center " for="gridRadios1">NO MUY ACTIVO (todo sentado)</label>
+      </div>
+
+      <div class="col-md-6">
+        <img class="col-md-5 rounded-circle imagen" src="../assets/images/parado2.png" alt="">
+        <input class="col-md-1" type="radio" name="gridRadios" value="option1" checked>
+        <label class=" form-check-label text-center col-md-6" for="gridRadios1">MEDIANAMENTE ACTIVO (todo de pie)</label>
+      </div>
+    </div>
+    <div class="row pt-4">
+      <div class="col-md-6">
+        <img class="col-md-5  rounded-circle imagen offset-md-1" src="../assets/images/caminando2.png" alt="">
+        <input class="col-md-1" type="radio" name="gridRadios" value="option1" checked>
+        <label class="col-md-5 form-check-label text-center " for="gridRadios1">ACTIVO (todo caminando)</label>
+      </div>
+
+      <div class="col-md-6">
+        <img class="col-md-5 rounded-circle imagen" src="../assets/images/activo.png" alt="">
+        <input class="col-md-1" type="radio" name="gridRadios" value="option1" checked>
+        <label class=" form-check-label text-center col-md-6" for="gridRadios1">MUY ACTIVO (trabajo físico)</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group row text-center pt-4">
+    <div class="col-md-12">
+      <button type="button" class="btn btn-lg btn-dark-green">Calcular calorías</button>
+    </div>
+  </div>
+</form>
+

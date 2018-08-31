@@ -1,0 +1,26 @@
+<div class="col-md-12 mt-5" id="hola">
+    <h4 class="text-center">Resultados</h4>
+</div>
+
+<div class="offset-md-2 col-md-8 mt-2 pt-3 result">
+    <div class="form-group row">
+        <label class="col-form-label offset-md-1 letra">
+            <b>Tu IMC es:</b>
+        </label>
+        <div>
+            <input type="text" readonly class="form-control-plaintext col-md-4 input1 offset-md-1"  [(ngModel)]="IMC">
+        </div>
+    </div>
+    <div class="row form-group" *ngIf="IMC <= 18.4">
+        <input  type="text" readonly class="col-md-8 offset-md-2 text-center input1"  value="Bajo de peso <= de 18.4">
+    </div>
+    <div class="row form-group"  *ngIf="IMC >= 18.5 && IMC <= 24.9">
+        <input type="text" readonly class="col-md-8 offset-md-2 text-center input1" value="Normal 18.5 a 24.9">
+    </div>
+    <div class="row form-group" *ngIf="IMC >= 25 && IMC <= 29.9">
+        <input type="text" readonly class="col-md-8 offset-md-2 text-center input1"  value="Sobrepeso 25 a 29.9">
+    </div>
+    <div class="row form-group" *ngIf="IMC >= 30">
+        <input type="text" readonly class="col-md-8 offset-md-2 text-center input1"  value="Obesidad mayor a 30">
+    </div>
+</div>

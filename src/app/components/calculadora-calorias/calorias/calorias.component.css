@@ -1,0 +1,22 @@
+#formulario{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    width: auto;
+   
+}
+
+.mujer{
+    width: 55px;
+    height: 70px;
+}
+
+
+.imagen{
+    border-image: 1px;
+    border-color: black;
+    border-style: solid;
+}

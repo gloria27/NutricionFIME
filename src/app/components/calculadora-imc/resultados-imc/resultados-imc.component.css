@@ -1,0 +1,18 @@
+.result{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    width: auto;
+}
+
+.input1{
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.letra{
+    font-size:18px
+}

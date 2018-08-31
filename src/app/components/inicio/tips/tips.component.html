@@ -1,0 +1,14 @@
+<!-- Titulo -->
+<div class="col-md-12">
+  <h2 class="text-center mt-4 mb-4">Tips para tener una vida saludable</h2>
+</div>
+<!-- contenido -->
+<div class="row my-3" *ngFor="let tip of tips">
+  <div class="col-md-4">
+    <img class="img-fluid" src="{{ tip.imagen }}" alt="">
+  </div>
+  <div class="col-md-8">
+    <p>{{ tip.titulo }}</p>
+    <p class="text-justify mb-4">Tip: {{ tip.descripcion }} </p>
+  </div>
+</div>

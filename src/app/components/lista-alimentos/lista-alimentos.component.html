@@ -1,0 +1,23 @@
+<div class="col-md-12">
+  <h1 class="mt-2 mb-4 text-center">Tabla de calorías de alimentos</h1>
+</div>
+<hr>
+<h6 class="text-center mt-4 mb-2">Cálculo de kcal. por cada 100 gr. de porción</h6>
+
+<div class="container">
+  <div class="row">
+    <table class=" table-sm col-md-12" *ngFor="let item of lista">
+      <thead>
+        <tr class="row">
+          <th style="border:1px #000000 solid; color:#fff;" class="col-6 text-center" scope="col" *ngFor="let col of item.columnas">{{col}}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row" *ngFor="let reg of item.registros">
+          <td style="border:1px #000000 solid" class="col-6">{{reg.alimento}}</td>
+          <td style="border:1px #000000 solid" class="col-6">{{reg.calorias}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

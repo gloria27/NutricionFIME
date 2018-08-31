@@ -1,0 +1,15 @@
+<!-- Titulo -->
+<div class="col-md-12">
+    <h1 class="mt-2 mb-4">Ejercicios para pierna</h1>
+  </div>
+  <!-- contenido -->
+  <div class="row my-3 mt-5" *ngFor="let ejercicio of ejercicios">
+    <div class="col-md-4">
+      <img class="img-fluid" src="{{ ejercicio.imagen }}" alt="">
+    </div>
+    <div class="col-md-8">
+      <h4>{{ ejercicio.nombre }}</h4>
+      <h6 class="text-justify mb-4">Descripción: </h6>
+      <p class="text-justify mb-4">{{ ejercicio.descripcion }}</p>
+    </div>
+  </div>

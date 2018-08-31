@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+div img {
+    height: 18vh;
+}
+
+#logonav{
+    background:linear-gradient( rgb(102, 99, 99) ,rgb(184, 180, 180));
+}
+
+
+
+
+
+

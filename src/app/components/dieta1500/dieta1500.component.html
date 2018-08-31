@@ -1,0 +1,45 @@
+<div class="col-md-12">
+  <h1 class="mt-2 mb-4 text-center">Dieta de 1500 calorías</h1>
+</div>
+<hr>
+<div class="col-md-12">
+  <h5>Información:</h5>
+  <p>- Aumenta el consumo de frutas y verduras frescas - 5 comidas diarias te harán controlar el apetito y reducir los niveles
+    de ansiedad. - Consume proteína de carnes magras y pescado que te saciará. - Elimina de tu dieta los productos procesados.
+    Opta por las grasas saludables. - Bebe 2 litros de agua al día. - Haz ejercicio de forma regular.</p>
+</div>
+<hr>
+<h6>Opción 1:</h6>
+<div class="table-responsive">
+  <table class="table table-bordered">
+    <thead>
+      <tr class="color text-center">
+        <th scope="col"></th>
+        <th scope="col" *ngFor="let dia of dieta1.dias"><b>{{dia}}</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let horario of dieta1.horarios">
+        <th class="color text-center" scope="row"><b>{{horario.nombre}}</b></th>
+        <td class="text-center" *ngFor="let comida of horario.comidas">{{comida}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<h6 class="mt-4">Opción 2:</h6>
+<div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr class="color text-center">
+          <th scope="col"></th>
+          <th scope="col" *ngFor="let dia of dieta2.dias"><b>{{dia}}</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let horario of dieta2.horarios">
+          <th class="color text-center" scope="row"><b>{{horario.nombre}}</b></th>
+          <td class="text-center" *ngFor="let comida of horario.comidas">{{comida}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

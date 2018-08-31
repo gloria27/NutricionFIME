@@ -1,0 +1,19 @@
+.borde{
+    border:1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+hr{
+    border:1px;
+    border-style: solid;
+}
+
+.color{
+    background: rgb(62, 151, 62);
+}
+
+td{
+    background: rgba(226, 219, 219, 0.534);
+}

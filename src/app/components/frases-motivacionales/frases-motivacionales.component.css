@@ -1,0 +1,17 @@
+.aside1{
+    background:rgb(62, 151, 62);
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.aside2{
+    background:rgb(230, 230, 126);
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-width: 1px;
+    border-color:gray;
+    border-style: solid;
+}

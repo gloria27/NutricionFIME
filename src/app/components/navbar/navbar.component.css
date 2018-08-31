@@ -1,0 +1,22 @@
+nav {
+    position: relative !important; 
+    z-index: 9999 !important;
+}
+.navbar .navbar-brand{
+    font-weight: bold;
+    color:rgb(62, 151, 62) !important;
+}
+.navbar-nav .nav-item .nav-link{
+    font-weight:bold;
+    color:rgb(62, 151, 62) !important;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.navbar{
+    background:linear-gradient(rgb(184, 180, 180), white);
+    margin-bottom: 15px;
+}
